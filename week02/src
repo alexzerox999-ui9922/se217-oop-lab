@@ -1,3 +1,8 @@
+
+se217-oop-lab/
+  README.md
+  week02/
+    src/
 1.
 public class naimur {
    public static void main(String[] args){
