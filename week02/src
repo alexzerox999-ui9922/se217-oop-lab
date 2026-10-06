@@ -1,0 +1,287 @@
+1.
+public class naimur {
+   public static void main(String[] args){
+    System.out.println("naimur");
+   } 
+    
+}
+
+2.
+public class naimur {
+   public static void main(String[] args){    
+   String name="naimur";
+   String a=name;
+
+   System.out.println(a);
+}}
+
+3.
+public class naimur {
+   public static void main(String[] args){    
+   int a=123;
+   float b=12.56f;
+   Long c=12346789L;
+   byte h=30;
+   double k=153.8888;
+System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(h);
+        System.out.println(k);
+
+}}
+
+
+4.
+/**
+ * naimur 
+ */
+public class naimur {
+
+        public static void main(String[] args){
+ String a="naimur";
+ String b="Akash";
+ String c=a+b;
+ System.out.println(c);
+
+        }
+}
+
+
+5.
+/**
+ * naimur 
+ */
+public class naimur {
+
+        public static void main(String[] args){
+ String a="naimur";
+ String b="Akash";
+ String f=a.replace('i','o');
+ System.out.println(f);
+ System.out.println(f.length());
+
+        }
+}
+
+6.
+/**
+ * naimur 
+ */
+public class naimur {
+
+        public static void main(String[] args){
+ String a="naimur and Messi";
+ String b="Akash";
+System.out.println(a.substring(0,6));
+
+        }
+}
+
+
+7.
+
+/**
+ * naimur 
+ */
+public class naimur {
+
+        public static void main(String[] args){
+      int[] marks =new int[10];
+      marks[0]=97;
+      marks[1]=97;
+      marks[2]=97;
+      marks[3]=97;
+      System.out.println(marks.length);
+
+}}
+
+      
+     
+8.
+/**
+ * naimur 
+ */
+import java.util.Arrays;
+public class naimur {
+
+        public static void main(String[] args){
+      int[] marks =new int[4];
+      marks[0]=97;
+      marks[1]=98;
+      marks[2]=99;
+      marks[3]=65;
+    //  System.out.println(marks.length);
+      System.out.println(marks[0]);
+Arrays.sort(marks);
+System.out.println(marks[0]);
+      
+      
+      
+        }}
+
+
+
+9.
+public class naimur {
+        public static void main(String[] args){
+                int[][] marks={{10,20,30,40},{11,22,33,44}};
+                System.out.println(marks[1][1]);
+
+        }
+}
+
+
+10.
+import java.util.Scanner;
+public class naimur {
+        public static void main(String[] args){
+                Scanner input = new Scanner(System.in);
+                int age=input.nextInt();
+                float age2=input.nextFloat();
+                String b=input.next();
+                System.out.println(age);
+                System.out.println(age2);
+                
+                System.out.println(b);
+                input.close();
+
+        }
+}
+
+
+11.
+import java.util.Scanner;
+public class naimur {
+        public static void main(String[] args){
+              Scanner input =new Scanner(System.in);
+              int age=input.nextInt();
+              if(age<18){
+                System.out.println("Immature");
+              }
+ else if (age>18 && age<=100){
+        System.out.println("Adult");
+ }
+ else {
+        System.out.println("DEAD");
+ }
+ input.close();
+        }
+}
+
+12.
+public class naimur {
+        public static void main(String[] args){
+        int i=0;
+        while (true){
+                if(i==3){
+                        i=i+1;
+                        continue;
+                      
+                }
+                  System.out.println(i);
+                        i=i+1;
+                        if(i>7){
+                                break;}
+
+                }
+        } }
+        
+
+
+
+ 13.
+ import java.util.Scanner ;
+public class naimur {
+        
+        public static void PrintName(String name){
+                System.out.println(name);
+        }
+        public static void main(String[] args){
+       
+Scanner input =new Scanner (System.in);
+String name=input.nextLine();
+PrintName(name);
+input.close();
+
+                }
+        } 
+        
+14.
+public class naimur {
+        
+        public static void PrintJava(){
+                System.out.println("The Greatest Of All time : Messi");
+        }
+        public static void main(String[] args){
+       
+PrintJava();
+PrintJava();
+                }
+        } 
+        
+15.
+class pen{
+        String color;
+        String type;
+        public void write(){
+System.out.println("Write Something");}
+
+public void printobj(){
+        System.out.println(this.color);
+        System.out.println(this.type);
+
+}
+        }
+
+public class naimur {
+public static void main(String[] args){
+pen pen1 = new pen();
+pen1.color="red";
+pen1.type="gel";
+pen pen2 = new pen();
+pen2.color="green";
+pen2.type="Ball";
+pen1.printobj();
+pen2.printobj();
+}
+
+}
+
+16.
+class student{
+        String name;
+        int age;
+        public void printinfo(){
+                System.out.println(this.name);
+                System.out.println(this.age);
+        }
+student(String a,int b){
+        this.name=a;
+        this.age=b;
+}
+student(student s){
+        this.name=s.name;
+        this.age=s.age;
+}
+}
+public class naimur {
+        public static void main(String[] args){
+student s1=new student("naimur",22);
+student s2=new student(s1);
+s1.printinfo();
+s2.printinfo();
+
+        }
+}
+
+
+
+    
+
+
+
+
+
+
+
